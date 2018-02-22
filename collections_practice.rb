@@ -86,8 +86,8 @@ def organize_schools(schools)
       else
         schools_in_order[location] << school
       end
-    end
-    binding.pry
-    schools_in_order
+    end    
   end
+  binding.pry
+  schools_in_order
 end

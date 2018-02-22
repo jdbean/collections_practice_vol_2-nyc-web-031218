@@ -81,7 +81,6 @@ def organize_schools(schools)
   schools_in_order = {}
   schools.each do |school, location_hash|
     location_hash.each do |key, location|
-      binding.pry
       if schools_in_order[location].nil?
         schools_in_order[location] = [school]
       else

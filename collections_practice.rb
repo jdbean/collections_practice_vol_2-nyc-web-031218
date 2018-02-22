@@ -84,9 +84,9 @@ def organize_schools(schools)
       if schools_in_order[location].nil?
         schools_in_order[location] = [school]
       else
-        schools_in_order[location] << school
+        # schools_in_order[location] << school
       end
-    end    
+    end
   end
   binding.pry
   schools_in_order

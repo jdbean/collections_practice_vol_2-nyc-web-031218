@@ -82,7 +82,11 @@ def organize_schools(schools)
   schools.each do |school, location_hash|
     location_hash.each do |key, location|
       binding.pry
-      if schools_in_order[location]
+      if schools_in_order[location].nil?
+        schools_in_order[location] = [school]
+      else
+        schools_in_order[location] << school
+
       end
     end
   end

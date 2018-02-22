@@ -80,11 +80,10 @@ end
 def organize_schools(schools)
   schools_in_order = []
   schools.each do |school, location_hash|
-    binding.pry
     location_hash.each do |key, location|
       binding.pry
       if schools_in_order[location]
-     
+
     end
   end
 end

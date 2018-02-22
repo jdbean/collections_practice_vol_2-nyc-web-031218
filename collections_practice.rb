@@ -88,6 +88,5 @@ def organize_schools(schools)
       end
     end
   end
-  binding.pry
   schools_in_order
 end

@@ -83,7 +83,7 @@ def organize_schools(schools)
     location_hash.each do |key, location|
       binding.pry
       if schools_in_order[location]
-
+      end
     end
   end
 end

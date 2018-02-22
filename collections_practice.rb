@@ -78,7 +78,7 @@ end
 #organize_schools organizes the schools by location
 
 def organize_schools(schools)
-  schools_in_order = []
+  schools_in_order = {}
   schools.each do |school, location_hash|
     location_hash.each do |key, location|
       binding.pry
